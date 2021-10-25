@@ -10,7 +10,7 @@ const getWeather = require('./utils/weather');
 const path = require('path');
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 const hbs = require('hbs');
 const ejs = require('ejs');
 
