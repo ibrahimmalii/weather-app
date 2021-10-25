@@ -1,5 +1,5 @@
 {
-  "name": "weather-app",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "postman-request": "^2.88.1-postman.30"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "postman-request": "^2.88.1-postman.30",
+    "request": "^2.88.0"
   }
 }

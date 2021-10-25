@@ -1,0 +1,73 @@
+/* body{
+    color: red;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 17px;
+}; */
+
+html{
+    margin: 0 auto;
+    width: 50vw;
+}
+
+footer{
+    border-top: 1px solid gray;
+    color: rgb(99, 22, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(238, 6, 6);
+    font-family: Arial;
+}
+
+.navUl{
+    list-style: none;
+    background-color: gray;
+    color:white;
+    padding:10px;
+}
+.navUl li{
+    display: inline;
+    padding:10px;
+}
+
+.navUl li a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navUl li a:hover{
+    color: white;
+}
+
+#weatherForm{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#weatherForm > input{
+    width : 100%;
+    height : 30px;
+    border : 1px solid green;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+#weatherForm #getWeather{
+    width : 160px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
